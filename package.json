@@ -1,0 +1,15 @@
+{
+  "name": "gagehowetamu.github.io",
+  "version": "1.0.0",
+  "description": "A Github Page for experimenting and posting projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy" : "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^6.0.0"
+  }
+}
