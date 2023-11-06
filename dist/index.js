@@ -12,9 +12,6 @@ const material = new THREE.MeshBasicMaterial({
 const mesh = new THREE.Mesh(geometry, material);
 scene.add(mesh);
 
-
-
-
 const sizes = {
     width: window.innerWidth,
     height: window.innerHeight
@@ -38,4 +35,4 @@ function animate() {
     renderer.render(scene, camera);
 }
 
-animate(); 
+animate();
