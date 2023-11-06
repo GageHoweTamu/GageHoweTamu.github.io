@@ -15,15 +15,6 @@ scene.add(mesh);
 
 
 
-
-
-
-
-
-
-
-
-
 const sizes = {
     width: window.innerWidth,
     height: window.innerHeight
@@ -47,4 +38,4 @@ function animate() {
     renderer.render(scene, camera);
 }
 
-animate();
+animate(); 
